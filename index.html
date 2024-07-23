@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Photo Animator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Homepage -->
+    <div id="homepage" class="homepage">
+        <div class="homepage-content">
+            <h1>Photo Animator</h1>
+            <br>
+            <br>
+            <button onclick="showApp()">START</button>
+        </div>
+    </div>
+
+    <!-- App Page -->
+    <div id="app" class="app-container">
+        <h1>Animate Photos</h1>
+        <div id="photo-container">
+            <img id="photo1" src="" alt="Photo 1">
+            <img id="photo2" src="" alt="Photo 2">
+        </div>
+        <div class="upload-container">
+            <label class="upload-label">Upload First Photo</label>
+            <input type="file" id="upload1" class="upload-input" accept="image/*">
+            <label class="upload-label">Upload Second Photo</label>
+            <input type="file" id="upload2" class="upload-input" accept="image/*">
+        </div>
+        <div class="button-container">
+            <button class="action-button" onclick="animatePhotos()">Animate</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
