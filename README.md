@@ -2,8 +2,8 @@
 
 Welcome to the Photo Animator app! This app allows you to combine and animate two photos.
 
-![Screenshot](Image/Homepage.png)
-![Screenshot](Image/Mainpage.png)
+![Screenshot](Image/homepage.png)
+![Screenshot](Image/mainpage.png)
 
 ## Technologies Used
 
