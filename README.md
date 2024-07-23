@@ -1,4 +1,4 @@
-# Photo Animator
+# Photo Animator 📸
 
 Welcome to the Photo Animator app! This app allows you to combine and animate two photos.
 
